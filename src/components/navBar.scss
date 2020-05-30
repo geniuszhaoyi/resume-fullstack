@@ -1,0 +1,17 @@
+
+.navBar {
+    width: 100%;
+    background: black;
+
+    a {
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        margin: 0.2em;
+        padding: 0.2em;
+
+        &:hover {
+            background: grey;
+        }
+    }
+}
