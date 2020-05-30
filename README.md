@@ -6,3 +6,4 @@
 ## Pending items
 
 - About Page
+- Publish to npm
