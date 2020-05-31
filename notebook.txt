@@ -1,0 +1,1 @@
+npm install --save-dev '@babel/cli' '@babel/core' '@babel/plugin-proposal-class-properties' '@babel/preset-env' '@babel/preset-react' cpx cross-env

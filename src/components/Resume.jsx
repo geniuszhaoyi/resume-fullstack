@@ -33,10 +33,6 @@ export default function Resume(props) {
         </Address>
         <Phone>2019121907</Phone>
         <Email enableLink={false}>genius.zhaoyi@gmail.com</Email>
-        {/* <Summary>
-                <p>asdf</p>
-                <p>qwwer11111</p>
-            </Summary> */}
         <Experiences>
             <Experience>
                 <Company>Samsung SDS America</Company>

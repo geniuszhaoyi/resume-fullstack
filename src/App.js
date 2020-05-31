@@ -14,6 +14,9 @@ function App() {
     <BrowserRouter>
       <NavBar />
       <Switch>
+        <Route path="/demo">
+          <About />
+        </Route>
         <Route path="/about">
           <About />
         </Route>

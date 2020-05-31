@@ -5,12 +5,15 @@ import './navBar.scss';
 
 export default function NavBar() {
     let location = useLocation();
-    console.log('location.pathname', location.pathname);
     let showNavBar = true;
 
-    if (location.pathname.indexOf('/resume') >= 0) {
-        showNavBar = false;
-    }
+    const paths = ['/resume', '/demo'];
+    paths.forEach(p => {
+        if (location.pathname.indexOf(p) >= 0) {
+            showNavBar = false;
+        }
+    })
+
 
     if (showNavBar) {
         return <div id='NavBar' className='navBar'>
