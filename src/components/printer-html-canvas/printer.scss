@@ -2,9 +2,29 @@
 .printer {
     position: absolute;
     margin: 20px;
-    padding: 30px;
     top: 33.75px;
     right: 0;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 8px;
+    // text-align: left;
+
+    .button {
+        padding: 10px 15px;
+        cursor: pointer;
+    }
+
+    .button:first-child {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+
+    .button:last-child {
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+
+    .button:hover {
+        background: lightgrey;
+    }
+
 }

@@ -5,6 +5,9 @@ import './App.css';
 
 import Home from './components/Home'
 import NavBar from './components/NavBar'
+import Resume from './components/Resume'
+import ColorfulResume from './components/ColorfulResume'
+import About from './components/About'
 
 function App() {
   return (
@@ -12,10 +15,13 @@ function App() {
       <NavBar />
       <Switch>
         <Route path="/about">
-          <div>about</div>
+          <About />
         </Route>
-        <Route path="/users">
-          <div>users</div>
+        <Route path="/color">
+          <ColorfulResume />
+        </Route>
+        <Route path="/resume">
+          <Resume />
         </Route>
         <Route path="/">
           <Home />

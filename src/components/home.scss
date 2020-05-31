@@ -1,4 +1,10 @@
 
 .home {
     text-align: center;
+
+    .resumeBorderLetter {
+        display: inline-block;
+        border: 1px solid black;
+        margin: 30px;    
+    }
 }
