@@ -28,6 +28,18 @@ export default function About() {
                 </p>
             </div>
             <div className='card'>
+                <h2>Try it yourself</h2>
+                <p>
+                    <a target="_blank" href="https://glitch.com/edit/?utm_content=project_yi-zhao-resume&utm_source=view_source&utm_medium=button&utm_campaign=glitchButton#!/yi-zhao-resume">
+                        Edit it
+                    </a>
+                    &nbsp;and&nbsp;
+                    <a target="_blank" href="https://yi-zhao-resume.glitch.me">
+                        View the result
+                    </a>
+                </p>
+            </div>
+            <div className='card'>
                 <h2>How this website is made</h2>
                 <p>
                     To write a resume in 5 minutes, I implemented <a target="_blank" rel="noopener noreferrer" href='https://www.npmjs.com/package/@geniuszhaoyi/resume-template'>this</a> npm
